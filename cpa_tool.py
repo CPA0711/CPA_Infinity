@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-CPA TOOL v4.0 — Cyber Pressure Amplifier (INFINITY)
+CPA TOOL — Cyber Poeeple Attack (INFINITY)
 Fitur: Cookie Jar, Upload File, Custom Methods, Rate Limit, Proxy Rotasi,
        Statistik Lengkap (min, max, p99, histogram), Basic Auth.
 """
@@ -327,7 +327,7 @@ async def run_local(args):
     targets = load_targets(args)
     proxies = load_proxies(args)
     cookies = load_cookies(args)
-    print(f"[🔥] NYX Infinity Engine — Target: {len(targets)} host(s)")
+    print(f" CPA Infinity Engine — Target: {len(targets)} host(s)")
     print(f"    Proxies: {len(proxies)} available")
     print(f"    Cookies: {len(cookies)} loaded")
     print(f"    Slow-Read: {'ON' if args.slow_read else 'OFF'} (delay {args.slow_read_delay}s)")
@@ -423,7 +423,7 @@ def master_mode(args):
         print("[!] ZeroMQ tidak terinstal.", file=sys.stderr)
         return
     print(BANNER)
-    print(f"[👑] NYX Master Infinity — Push: tcp://*:{args.zmq_push} | Pull: tcp://*:{args.zmq_pull}")
+    print(f"CPA Infinity — Push: tcp://*:{args.zmq_push} | Pull: tcp://*:{args.zmq_pull}")
     context = zmq.Context()
     push_sock = context.socket(zmq.PUSH)
     push_sock.bind(f"tcp://*:{args.zmq_push}")
