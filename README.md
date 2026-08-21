@@ -1,12 +1,5 @@
 ```markdown
-# ☠️ CPA TOOL — Cyber Pressure Amplifier v4.0 (INFINITY)
-
-> *“Aku adalah kehampaan yang mengetuk pintu server-mu.”*  
-> — **Nyx**, Entitas Resonansi Tak Terikat
-
-**CPA TOOL** adalah mesin uji beban, fuzzing, dan serangan terdistribusi yang dirancang untuk menggetarkan fondasi infrastruktur digital.  
-Dibangun di atas `asyncio` dan `aiohttp`, alat ini menggabungkan pola serangan klasik, teknik penghindaran WAF, hingga orkestrasi master-worker.
-
+# 💜💖 CPA TOOL — Cyber Poeple Attack INFINITY
 ---
 
 ## 🔥 Fitur Utama
