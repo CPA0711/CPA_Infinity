@@ -604,7 +604,6 @@ def main():
     parser.add_argument("--step-duration", type=int, default=10)
     parser.add_argument("-c", "--concurrency", type=int, default=100)
 
-    # FITUR BARU INFINITY
     parser.add_argument("--targets-file", help="File daftar URL (satu per baris)")
     parser.add_argument("--headers-file", help="File custom headers (Header: Value)")
     parser.add_argument("--fuzz", action="store_true", help="Aktifkan fuzzing SQLi/XSS/LFI")
@@ -616,7 +615,6 @@ def main():
     parser.add_argument("--upload-file", help="File untuk diupload (multipart/form-data)")
     parser.add_argument("--auth", help="Basic Auth user:pass")
 
-    # FITUR LAMA
     parser.add_argument("--slow-read", action="store_true")
     parser.add_argument("--slow-read-delay", type=float, default=0.5)
     parser.add_argument("--http2", action="store_true")
@@ -627,9 +625,6 @@ def main():
     parser.add_argument("--zmq-pull", type=int, default=5556)
 
     args = parser.parse_args()
-
-    def main():
-    # ... (semua parser) ...
 
     # VALIDASI TARGET
     if args.mode in ("local", "master"):
