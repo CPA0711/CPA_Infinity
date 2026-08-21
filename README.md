@@ -1,10 +1,7 @@
 ```
+ 💜💖 CPA TOOL — Cyber Poeple Attack INFINITY
 
-```markdown
-# 💜💖 CPA TOOL — Cyber Poeple Attack INFINITY
----
-
-## 🔥 Fitur Utama
+ 🔥 Fitur Utama
 
 - **Tiga Pola Serangan**  
   - `flat` — konstan, seperti ombak.  
@@ -33,9 +30,9 @@
   - Histogram latensi (bucket 100ms).  
   - Ekspor ke JSON untuk analisis lanjutan.  
 
----
 
-## 📦 Instalasi
+
+ 📦 Instalasi
 
 Pastikan Python 3.10+ terinstal, lalu pasang dependensi:
 
