@@ -36,13 +36,12 @@
 
 Pastikan Python 3.10+ terinstal, lalu pasang dependensi:
 
-```bash
 pip install aiohttp pyzmq tqdm
 ```
 
 Clone atau unduh cpa_tool.py ke direktori kerja Anda.
 
----
+
 
 🚀 Panduan Singkat
 
