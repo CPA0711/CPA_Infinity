@@ -628,9 +628,16 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.url and not args.targets_file:
-        print("[!] Harap berikan URL atau --targets-file")
-        sys.exit(1)
+    def main():
+    # ... (semua parser) ...
+
+    # VALIDASI TARGET
+    if args.mode in ("local", "master"):
+        targets = load_targets(args)
+        if not targets:
+            print("[!] ERROR: Tidak ada target yang diberikan.")
+            print("    Berikan URL langsung atau gunakan --targets-file")
+            sys.exit(1)
 
     if args.mode == "local":
         asyncio.run(run_local(args))
